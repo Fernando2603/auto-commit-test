@@ -38,7 +38,7 @@ jobs:
           rm -rf .git
       
       - name: Add and commit
-        uses: Fernando2603/auto-commit@v1.0.0
+        uses: Fernando2603/add-and-commit@v1.0.0
         with:
           name: ${{ github.actor }}
           email: ${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com
